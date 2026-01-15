@@ -1,0 +1,66 @@
+{
+  "transcript-Ada Chen Rekhi": {
+    "status": "processed",
+    "chunks_count": 18,
+    "chunks_list": [
+      "chunk-1541bd4f2a9abc2f1439bee710c7880c",
+      "chunk-be830a7a4a458cbfb8936b2300adce51",
+      "chunk-83bf94b03a784c5649bdc4fcb44b9e56",
+      "chunk-daf4efdc6d7ef21e837dfeccb1035487",
+      "chunk-b2419a751d344131e30f1c0ef4b2cefb",
+      "chunk-3ef01b14864e33f95632c541afb0e371",
+      "chunk-813fa4d6ddad5e5e9b3c0409a3eb009e",
+      "chunk-f0d1fe8469b0695a86cb6f05b3f0005c",
+      "chunk-266a1e6627724edba66a7a742a424ca0",
+      "chunk-c13ee6a41148aebc4c36f16e124ba6f4",
+      "chunk-393b95debdafdce0c156cac4611ebeee",
+      "chunk-fe949e4f02c5782335a1a6ec284c0c9c",
+      "chunk-b655492de29f89ef02f114b226b17135",
+      "chunk-da35812fee5d3a2bb7e10cd3329695d9",
+      "chunk-72a3fa3eec09ff8a100ccb4ab1e0425b",
+      "chunk-fb1103e8b73ff343465efd5a55080c35",
+      "chunk-90c28137229e765d930d2bf4320b8fb4",
+      "chunk-0989656a26d13370c68bd74c1d8b1c06"
+    ],
+    "content_summary": "Ada Chen Rekhi (00:00:00):\nIt's a terrible outcome to wake up one day and be late career and feel trapped because you have a certain lifestyle or a certain expectations of the people around you that you have to go work this job, but then you look at ...",
+    "content_length": 86187,
+    "created_at": "2026-01-15T08:35:43.273998+00:00",
+    "updated_at": "2026-01-15T13:37:58+00:00",
+    "file_path": "Ada Chen Rekhi.txt",
+    "track_id": "insert_20260115_133543_f692a3b8",
+    "metadata": {
+      "processing_start_time": 1768466143,
+      "processing_end_time": 1768466278
+    },
+    "multimodal_processed": true
+  },
+  "transcript-Adam Fishman": {
+    "status": "processing",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-28fe19d06335b27c91722d6d9b9a9bc1",
+      "chunk-c921aab304d38599b16b599b05a67799",
+      "chunk-173a6098661d1c752c679a09d5db4fce",
+      "chunk-d3c517cee3dddf3d66da9f79bad2f34b",
+      "chunk-d418c771147d7f88d0e487e0a6201c0f",
+      "chunk-057a84d4a4c31a97d97bfab997a0e900",
+      "chunk-b0cea9379d7d166d8d9ea0e44491d6c6",
+      "chunk-0ca8aa7b37ac835917b652f04d99912a",
+      "chunk-6cb767d3fe05b3e3aa098b8eacc768b9",
+      "chunk-6d3f42d1316e82ee95a4113c09198822",
+      "chunk-e89b32a1f8adec0a2e08691517abad32",
+      "chunk-6c9fc270665b71629408a7c874395ca6",
+      "chunk-affc3b98ebdcf2548cc3d0a5da3079c6",
+      "chunk-73d6d653bc0cee4d6511b954451157de"
+    ],
+    "content_summary": "Adam Fishman (00:00:00):\nOnboarding is the only part of your product experience that a hundred percent of people are ever going to touch. Good luck getting a hundred percent feature adoption of anything else in your product, right? But onboarding is ...",
+    "content_length": 69354,
+    "created_at": "2026-01-15T08:37:58.314432+00:00",
+    "updated_at": "2026-01-15T08:37:58.348852+00:00",
+    "file_path": "Adam Fishman.txt",
+    "track_id": "insert_20260115_133758_f3904a7e",
+    "metadata": {
+      "processing_start_time": 1768466278
+    }
+  }
+}

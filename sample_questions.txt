@@ -1,0 +1,178 @@
+Sample Questions for Transcript RAG System
+============================================================
+
+ABOUT ADA CHEN REKHI (Executive Coach & Founder)
+-------------------------------------------------
+
+Career & Values:
+1. What is a curiosity loop and how does it work?
+2. What are Ada's personal values and how did she identify them?
+3. What is the explore and exploit framework for career development?
+4. How do you avoid being the 'boiled frog' in your career?
+5. What advice does Ada give about early career strategy?
+6. What is the inner vs outer scorecard concept?
+7. How should you think about career decisions using values?
+
+Frameworks & Concepts:
+8. What is the 'eating your vegetables' concept?
+9. How does the LinkedIn 30 exercise work?
+10. What is Ada's approach to executive coaching?
+11. When should you get a coach and when should you not?
+12. How do you know if coaching is right for you?
+
+Working Relationships:
+13. Should you start a company with your partner?
+14. What makes a successful co-founder partnership?
+15. How do you handle conflict with a co-founder?
+16. What is Ada's experience working with her husband?
+
+Career Advice:
+17. How do you build a network when you're new to Silicon Valley?
+18. What advice does Ada have for women in leadership?
+19. How do you give and receive difficult feedback?
+20. What is the importance of self-awareness in career growth?
+
+ABOUT ADAM FISHMAN (Growth Expert, Former VP at Lyft & Patreon)
+---------------------------------------------------------------
+
+Growth Competency Model:
+21. What is Adam Fishman's growth competency model?
+22. What are the four main components of the growth competency model?
+23. What skills fall under 'growth execution'?
+24. What skills fall under 'customer knowledge'?
+25. What skills fall under 'growth strategy'?
+26. What skills fall under 'communication and influence'?
+27. How should founders evaluate growth candidates?
+
+Hiring Growth People:
+28. What mistakes do founders make when hiring growth people?
+29. Should you hire a senior growth person or someone junior?
+30. How do you hire your first growth person?
+31. What are the characteristics of a good growth hire?
+32. When should you hire internally vs externally for growth?
+33. What is the painter vs architect vs surgeon framework?
+
+Onboarding Optimization:
+34. Why is onboarding important for growth?
+35. How can onboarding improve retention?
+36. What impact did Adam see from onboarding work at Patreon?
+37. What is the right balance between conversion and retention in onboarding?
+38. How do you measure onboarding success?
+39. Should you have a dedicated onboarding team?
+40. What are opinionated defaults and how do they work?
+
+Career Selection:
+41. What is the PMF framework for choosing a company to work at?
+42. What does the 'People' component mean in PMF?
+43. What does the 'Mission' component mean in PMF?
+44. What does the 'Financials' component mean in PMF?
+45. How do you evaluate a company before joining?
+46. What questions should you ask during interviews?
+47. How do you do back-channel references?
+
+Adam's Career Journey:
+48. What did Adam learn from his time at Lyft?
+49. What did Adam learn from his time at Patreon?
+50. What mistakes did Adam make in company selection?
+51. What was Adam's experience at Wyzant?
+52. What was Adam's experience at Imperfect Foods?
+
+COMPARATIVE & SYNTHESIS QUESTIONS
+---------------------------------
+
+53. What do Ada and Adam both say about career development?
+54. How do Ada's values exercise and Adam's PMF framework complement each other?
+55. What advice do both guests give about making career decisions?
+56. How do both guests approach learning and skill development?
+57. What role does self-awareness play according to both Ada and Adam?
+58. How do both guests think about work-life balance?
+59. What frameworks do Ada and Adam share for decision-making?
+60. What is the common advice about networking and relationships?
+
+SPECIFIC TACTICAL QUESTIONS
+---------------------------
+
+61. How many people should you include in a curiosity loop?
+62. What is the business card networking exercise Ada recommends?
+63. What metrics should you look at for onboarding optimization?
+64. How much can onboarding improvements impact LTV?
+65. What are proxy metrics for retention?
+66. How do you structure a values exercise?
+67. What questions should you ask a potential manager?
+68. How do you evaluate if a company has good fiscal discipline?
+69. What are the warning signs of a bad company culture?
+70. How do you build relationships with potential employers?
+
+============================================================
+
+HOW TO QUERY THE RAG SYSTEM
+============================================================
+
+Option 1: Interactive Mode
+--------------------------
+python query_rag.py --interactive
+
+Then type your questions and get instant answers!
+
+
+Option 2: Single Question
+-------------------------
+python query_rag.py "What is a curiosity loop?"
+
+
+Option 3: Programmatic Query
+----------------------------
+from raganything import RAGAnything, RAGAnythingConfig
+from lightrag.llm import openai_complete_if_cache, openai_embedding
+from lightrag.utils import EmbeddingFunc
+import asyncio
+import numpy as np
+
+async def query():
+    config = RAGAnythingConfig(working_dir='./rag_storage')
+
+    async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwargs):
+        return await openai_complete_if_cache(
+            "gpt-4o-mini", prompt,
+            system_prompt=system_prompt,
+            history_messages=history_messages,
+            **kwargs
+        )
+
+    async def embedding_func(texts: list[str]) -> np.ndarray:
+        return await openai_embedding(texts, model="text-embedding-3-small")
+
+    rag = RAGAnything(
+        config=config,
+        llm_model_func=llm_model_func,
+        embedding_func=EmbeddingFunc(
+            embedding_dim=1536,
+            max_token_size=8192,
+            func=embedding_func
+        )
+    )
+
+    await rag._ensure_lightrag_initialized()
+    response = await rag.aquery('Your question here', mode='hybrid')
+    print(response)
+    rag.close()
+
+asyncio.run(query())
+
+
+QUERY MODES
+-----------
+- naive: Simple keyword search
+- local: Local context-based search
+- global: Global knowledge graph search
+- hybrid: Combines local and global (RECOMMENDED)
+- mix: Mixes multiple approaches
+
+
+TIPS FOR BEST RESULTS
+---------------------
+1. Be specific in your questions
+2. Mention names (Ada/Adam) for person-specific insights
+3. Ask about specific frameworks and concepts
+4. Use follow-up questions to dig deeper
+5. Try different query modes if one doesn't give good results

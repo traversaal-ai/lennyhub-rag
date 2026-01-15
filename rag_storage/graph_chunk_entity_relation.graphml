@@ -1,0 +1,1817 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Microsoft">
+      <data key="d0">Microsoft</data>
+      <data key="d1">organization</data>
+      <data key="d2">Microsoft is a technology company where Ada Chen Rekhi started her early career in an entry-level sales position.&lt;SEP&gt;Microsoft is a large technology company where Ada Chen Rekhi started her career, working on adCenter.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466228</data>
+      <data key="d6" />
+    </node>
+    <node id="SurveyMonkey">
+      <data key="d0">SurveyMonkey</data>
+      <data key="d1">organization</data>
+      <data key="d2">SurveyMonkey is a platform where Ada Chen Rekhi previously worked and engaged with survey researchers.&lt;SEP&gt;SurveyMonkey is a widely-used platform for creating surveys and gaining insights, where Ada served as the senior vice president of marketing.&lt;SEP&gt;SurveyMonkey is a company known for its online survey software and engaged the speaker for a marketing position based on their experience.&lt;SEP&gt;SurveyMonkey is an online survey platform where Ada Chen Rekhi held the position of SVP of marketing, leading a global team.&lt;SEP&gt;SurveyMonkey is an online survey platform where Ada Chen Rekhi became the head of marketing after significant experience in other roles.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-f0d1fe8469b0695a86cb6f05b3f0005c&lt;SEP&gt;chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466228</data>
+      <data key="d6" />
+    </node>
+    <node id="Career Concept of Explore and Exploit">
+      <data key="d0">Career Concept of Explore and Exploit</data>
+      <data key="d1">concept</data>
+      <data key="d2">The concept of Explore and Exploit refers to a strategy in career development balancing exploration of new opportunities with the exploitation of existing ones.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466228</data>
+      <data key="d6" />
+    </node>
+    <node id="Values Exercise">
+      <data key="d0">Values Exercise</data>
+      <data key="d1">method</data>
+      <data key="d2">Values Exercise is a structured activity designed to help individuals identify and prioritize their personal and professional values.&lt;SEP&gt;The Values Exercise is a method for individuals to delineate their values to inform better decision-making in their careers and personal lives.&lt;SEP&gt;The Values Exercise is a tool used to evaluate personal and professional values in decision-making.&lt;SEP&gt;The Values Exercise is a reflective practice used to help individuals identify their core values and assess alignment with their career choices.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-266a1e6627724edba66a7a742a424ca0&lt;SEP&gt;chunk-c13ee6a41148aebc4c36f16e124ba6f4&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466228</data>
+      <data key="d6" />
+    </node>
+    <node id="Values">
+      <data key="d0">Values</data>
+      <data key="d1">concept</data>
+      <data key="d2">Values represent the principles and beliefs that guide personal choices and decisions in life.&lt;SEP&gt;Values refer to principles or standards that guide individuals in making decisions about their lives and careers.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466228</data>
+      <data key="d6" />
+    </node>
+    <node id="Kim Malone Scott">
+      <data key="d0">Kim Malone Scott</data>
+      <data key="d1">person</data>
+      <data key="d2">Kim Malone Scott is mentioned as an influential figure in the conversation related to feedback and personal development.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466228</data>
+      <data key="d6" />
+    </node>
+    <node id="Sheryl Sandberg">
+      <data key="d0">Sheryl Sandberg</data>
+      <data key="d1">person</data>
+      <data key="d2">Sheryl Sandberg is mentioned as a figure who provides feedback in a professional context, with a notable story related to Ada Chen Rekhi's experience.&lt;SEP&gt;Sheryl Sandberg is discussed for providing hard feedback while being viewed as a courageous figure in giving constructive criticism.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466229</data>
+      <data key="d6" />
+    </node>
+    <node id="Silicon Valley">
+      <data key="d0">Silicon Valley</data>
+      <data key="d1">location</data>
+      <data key="d2">Silicon Valley is a region known for its technology industry, where discussions about the experiences of women in the field take place.&lt;SEP&gt;Silicon Valley is a region known for its technology companies and entrepreneurial culture, often discussed in relation to leadership roles.&lt;SEP&gt;Silicon Valley is a region known for its technology companies and associated challenges for women in achieving executive roles.&lt;SEP&gt;Silicon Valley is referenced as a region significant for networking and professional growth in the technology industry.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-fe949e4f02c5782335a1a6ec284c0c9c&lt;SEP&gt;chunk-b655492de29f89ef02f114b226b17135&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466229</data>
+      <data key="d6" />
+    </node>
+    <node id="Eating Your Vegetables">
+      <data key="d0">Eating Your Vegetables</data>
+      <data key="d1">concept</data>
+      <data key="d2">Eating Your Vegetables is a metaphor used by Ada Chen Rekhi to describe the necessity of enduring difficulties to develop skills and taste for experiences.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466230</data>
+      <data key="d6" />
+    </node>
+    <node id="Networking">
+      <data key="d0">Networking</data>
+      <data key="d1">concept</data>
+      <data key="d2">Networking is highlighted as an essential activity in Silicon Valley for career advancement, requiring practice and perseverance.&lt;SEP&gt;Networking refers to the process of connecting with individuals to form professional relationships, increasingly done online.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466230</data>
+      <data key="d6" />
+    </node>
+    <node id="LinkedIn 30">
+      <data key="d0">LinkedIn 30</data>
+      <data key="d1">method</data>
+      <data key="d2">LinkedIn 30 refers to a practice of posting content daily on LinkedIn for 30 consecutive days to overcome barriers in content creation.&lt;SEP&gt;The LinkedIn 30 refers to an initiative of posting content on LinkedIn for 30 consecutive days to overcome sharing barriers.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466230</data>
+      <data key="d6" />
+    </node>
+    <node id="Business Cards">
+      <data key="d0">Business Cards</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Business cards are items used for networking, which Ada Chen Rekhi referenced in her strategy to build connections.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466230</data>
+      <data key="d6" />
+    </node>
+    <node id="First Podcast">
+      <data key="d0">First Podcast</data>
+      <data key="d1">concept</data>
+      <data key="d2">The concept of the First Podcast is mentioned to illustrate that a large percentage of podcasts do not continue past their initial episode.</data>
+      <data key="d3">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466230</data>
+      <data key="d6" />
+    </node>
+    <node id="Growth Experience">
+      <data key="d0">Growth Experience</data>
+      <data key="d1">concept</data>
+      <data key="d2">Growth experience refers to professional experiences that contribute to personal and career development.</data>
+      <data key="d3">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466230</data>
+      <data key="d6" />
+    </node>
+    <node id="Boiling Frog Metaphor">
+      <data key="d0">Boiling Frog Metaphor</data>
+      <data key="d1">concept</data>
+      <data key="d2">The boiling frog metaphor illustrates the danger of gradual negative changes that can lead to adverse situations without awareness.</data>
+      <data key="d3">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Product Marketer">
+      <data key="d0">Product Marketer</data>
+      <data key="d1">concept</data>
+      <data key="d2">A product marketer is a professional involved in marketing and promoting products, enhancing the connection between product development and customer needs.</data>
+      <data key="d3">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Startup Founder">
+      <data key="d0">Startup Founder</data>
+      <data key="d1">concept</data>
+      <data key="d2">A startup founder is an individual who establishes a new business, often characterized by innovation and a focus on rapid growth.</data>
+      <data key="d3">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Executive Coaches">
+      <data key="d0">Executive Coaches</data>
+      <data key="d1">concept</data>
+      <data key="d2">Executive coaches are professionals who help clients improve their leadership skills and achieve specific career goals.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Podcast Coach">
+      <data key="d0">Podcast Coach</data>
+      <data key="d1">concept</data>
+      <data key="d2">A podcast coach specializes in helping individuals create and improve their podcasting skills and strategies.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Newsletter Coach">
+      <data key="d0">Newsletter Coach</data>
+      <data key="d1">concept</data>
+      <data key="d2">A newsletter coach assists individuals in developing and managing their newsletter content and strategy.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Writing Coach">
+      <data key="d0">Writing Coach</data>
+      <data key="d1">concept</data>
+      <data key="d2">A writing coach provides guidance and support to individuals looking to enhance their writing skills.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Parent Coach">
+      <data key="d0">Parent Coach</data>
+      <data key="d1">concept</data>
+      <data key="d2">A parent coach offers advice and strategies to parents on various aspects of parenting and family dynamics.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466231</data>
+      <data key="d6" />
+    </node>
+    <node id="Job Board Coach">
+      <data key="d0">Job Board Coach</data>
+      <data key="d1">concept</data>
+      <data key="d2">A job board coach helps individuals navigate job search platforms and improve their job application process.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Life Coach">
+      <data key="d0">Life Coach</data>
+      <data key="d1">concept</data>
+      <data key="d2">A life coach assists individuals in setting and achieving personal goals in various aspects of life.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Seed Stage Founder">
+      <data key="d0">Seed Stage Founder</data>
+      <data key="d1">concept</data>
+      <data key="d2">A seed stage founder is an individual who has started a new company at the initial funding and development phase.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Coaching Context">
+      <data key="d0">Coaching Context</data>
+      <data key="d1">concept</data>
+      <data key="d2">Coaching context refers to the environment and circumstances in which coaching takes place, focusing on personal and professional development.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Coaching Session">
+      <data key="d0">Coaching Session</data>
+      <data key="d1">concept</data>
+      <data key="d2">A coaching session is an interaction between a coach and a client focused on improving skills and achieving personal goals.</data>
+      <data key="d3">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Ted Lasso">
+      <data key="d0">Ted Lasso</data>
+      <data key="d1">content</data>
+      <data key="d2">Ted Lasso is a recent TV show that Ada Chen Rekhi mentions as something she is watching.&lt;SEP&gt;Ted Lasso is a recent TV show that Ada Chen Rekhi is watching, noted for its enjoyable storytelling.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Star Trek: Strange New Worlds">
+      <data key="d0">Star Trek: Strange New Worlds</data>
+      <data key="d1">content</data>
+      <data key="d2">Star Trek: Strange New Worlds is a recent series within the Star Trek franchise that Ada Chen Rekhi refers to as a show she is watching.&lt;SEP&gt;Star Trek: Strange New Worlds is a new installment in the Star Trek franchise that Ada Chen Rekhi enjoys watching.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Notejoy">
+      <data key="d0">Notejoy</data>
+      <data key="d1">organization</data>
+      <data key="d2">Notejoy is a product co-founded by Ada Chen Rekhi that assists teams in sharing and organizing their thoughts and notes.&lt;SEP&gt;Notejoy is a notes application used by Ada Chen Rekhi for various organizational tasks in her personal and professional work.&lt;SEP&gt;Notejoy is an organization referenced by Ada and has an associated website, Notejoy.com, which listeners can check out.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Captio">
+      <data key="d0">Captio</data>
+      <data key="d1">product</data>
+      <data key="d2">Captio is a simple iOS app used by Ada Chen Rekhi for capturing thoughts quickly, functioning as a notepad that emails notes to the user.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Arc">
+      <data key="d0">Arc</data>
+      <data key="d1">product</data>
+      <data key="d2">Arc is a new web browser that Ada Chen Rekhi is exploring due to its interesting design and vision regarding browser tabs.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Note to Self">
+      <data key="d0">Note to Self</data>
+      <data key="d1">product</data>
+      <data key="d2">Note to Self is an app discovered by Lenny that allows users to easily email themselves thoughts.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466232</data>
+      <data key="d6" />
+    </node>
+    <node id="Productive Procrastination">
+      <data key="d0">Productive Procrastination</data>
+      <data key="d1">concept</data>
+      <data key="d2">Productive procrastination refers to the phenomenon where individuals engage in useful tasks to avoid a more important task they need to accomplish.</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Curiosity Loops">
+      <data key="d0">Curiosity Loops</data>
+      <data key="d1">concept</data>
+      <data key="d2">Curiosity loops are a method of engaging in effective questioning to gather contextual advice and insights.&lt;SEP&gt;Curiosity Loops is a method used by Ada Chen Rekhi to gather structured feedback from peers on various topics, enhancing decision-making.</data>
+      <data key="d3">chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Web Development Bootcamp">
+      <data key="d0">Web Development Bootcamp</data>
+      <data key="d1">method</data>
+      <data key="d2">Web development bootcamps are educational programs aimed at training individuals in web development skills.</data>
+      <data key="d3">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Subject Matter Expert">
+      <data key="d0">Subject Matter Expert</data>
+      <data key="d1">concept</data>
+      <data key="d2">A subject matter expert is an individual with specialized knowledge about a specific topic relevant to the inquiry.</data>
+      <data key="d3">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Good Question">
+      <data key="d0">Good Question</data>
+      <data key="d1">concept</data>
+      <data key="d2">A good question is a well-formed inquiry that seeks specific, rational, and unbiased answers to support effective decision-making.</data>
+      <data key="d3">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Bad Question">
+      <data key="d0">Bad Question</data>
+      <data key="d1">concept</data>
+      <data key="d2">A bad question is a poorly constructed inquiry that lacks specificity and can overload the respondent, leading to inadequate or unclear responses.</data>
+      <data key="d3">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Cognitive Load">
+      <data key="d0">Cognitive Load</data>
+      <data key="d1">concept</data>
+      <data key="d2">Cognitive load refers to the amount of mental effort being used in the working memory, which can impact the quality of responses received during question-asking.</data>
+      <data key="d3">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Radical Candor">
+      <data key="d0">Radical Candor</data>
+      <data key="d1">concept</data>
+      <data key="d2">Radical Candor is a concept discussed in a book that emphasizes the importance of giving hard feedback in professional settings.</data>
+      <data key="d3">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Feedback">
+      <data key="d0">Feedback</data>
+      <data key="d1">concept</data>
+      <data key="d2">Feedback refers to the information provided to individuals regarding their appearance and how it affects others' perceptions in a career context.</data>
+      <data key="d3">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Female Founders">
+      <data key="d0">Female Founders</data>
+      <data key="d1">concept</data>
+      <data key="d2">Female founders refer to women who establish and lead companies, facing particular challenges in the business environment, especially in Silicon Valley.</data>
+      <data key="d3">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466233</data>
+      <data key="d6" />
+    </node>
+    <node id="Funding">
+      <data key="d0">Funding</data>
+      <data key="d1">concept</data>
+      <data key="d2">Funding refers to the financial support received by founders to grow their businesses, with particular context given to the challenges faced by female founders.</data>
+      <data key="d3">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Lenny's Podcast">
+      <data key="d0">Lenny's Podcast</data>
+      <data key="d1">event</data>
+      <data key="d2">Lenny's Podcast is a series where Lenny interviews product leaders and growth experts to share insights and experiences in building successful products.&lt;SEP&gt;Lenny's Podcast is the show hosted by Lenny, where various topics including productivity and insights from guests are discussed.</data>
+      <data key="d3">chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Sprig">
+      <data key="d0">Sprig</data>
+      <data key="d1">organization</data>
+      <data key="d2">Sprig is a platform that helps product teams uncover user insights quickly to improve product development processes.&lt;SEP&gt;Sprig is a company that provides product development insights and tools, including templates for product teams.</data>
+      <data key="d3">chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="LinkedIn">
+      <data key="d0">LinkedIn</data>
+      <data key="d1">organization</data>
+      <data key="d2">LinkedIn is a professional networking platform where Ada Chen Rekhi worked on marketing for their growth team after her startup was acquired.&lt;SEP&gt;LinkedIn is a professional networking platform where Ada Chen Rekhi worked to enhance her skills before founding her next company.&lt;SEP&gt;LinkedIn is a social media platform where Ada Chen Rekhi and Lenny worked together across multiple teams.</data>
+      <data key="d3">chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-813fa4d6ddad5e5e9b3c0409a3eb009e&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Airbnb">
+      <data key="d0">Airbnb</data>
+      <data key="d1">organization</data>
+      <data key="d2">Airbnb is a global online marketplace for lodging and travel experiences, where Ada gained experience relevant to her work in product development.</data>
+      <data key="d3">chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Andrew Chen">
+      <data key="d0">Andrew Chen</data>
+      <data key="d1">person</data>
+      <data key="d2">Andrew Chen is the brother of Ada Chen Rekhi and known for his association with a16z, a well-known venture capital firm.</data>
+      <data key="d3">chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Podcast">
+      <data key="d0">Podcast</data>
+      <data key="d1">content</data>
+      <data key="d2">The Podcast is a medium through which Lenny expresses his thoughts, despite initially resisting its creation.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Angel Investing">
+      <data key="d0">Angel Investing</data>
+      <data key="d1">method</data>
+      <data key="d2">Angel Investing involves providing financial support to start-ups or entrepreneurs in exchange for equity, which Lenny is considering pausing.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="New Child">
+      <data key="d0">New Child</data>
+      <data key="d1">person</data>
+      <data key="d2">The New Child refers to Lenny's upcoming addition to his family, influencing his decisions about time management and priorities.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466234</data>
+      <data key="d6" />
+    </node>
+    <node id="Choose Adventure">
+      <data key="d0">Choose Adventure</data>
+      <data key="d1">concept</data>
+      <data key="d2">Choose Adventure is one of Lenny's stated values that reflects his desire for new experiences in life.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Stay Optimistic">
+      <data key="d0">Stay Optimistic</data>
+      <data key="d1">concept</data>
+      <data key="d2">Stay Optimistic is one of Lenny's identified values, representing a positive outlook on life.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Treat Others You Want to Be Treated">
+      <data key="d0">Treat Others You Want to Be Treated</data>
+      <data key="d1">concept</data>
+      <data key="d2">Treat Others You Want to Be Treated is a value expressed by Lenny, emphasizing kindness and empathy in interactions.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Keep Getting Better">
+      <data key="d0">Keep Getting Better</data>
+      <data key="d1">concept</data>
+      <data key="d2">Keep Getting Better is one of Lenny's values that signifies a commitment to self-improvement and growth.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Lenny">
+      <data key="d0">Lenny</data>
+      <data key="d1">person</data>
+      <data key="d2">Lenny is an active and busy founder and product expert known for his engaging conversational style, particularly in discussions surrounding personal development, decision-making, and curiosity. He frequently explores the concept of "curiosity loops," emphasizing the importance of asking structured questions to foster learning and growth. Lenny often collaborates with others, notably engaging in discussions with Ada Chen Rekhi on various topics, including career advice, productivity, and the significance of personal values in making decisions.
+
+In his dialogues, Lenny reflects on critical subjects such as career optimization, the role of coaching in professional and personal development, and the challenges associated with giving feedback, particularly around sensitive topics like physical appearance and gender dynamics in the tech industry. His conversations delve into metaphors related to job experiences and emphasize enjoyment and fulfillment in one’s work life.
+
+Lenny also shares insights about the experience of being a co-founder and the importance of partnership in building a business. He demonstrates a keen interest in content creation, prompting discussions around movies, TV shows, and productivity techniques. In addition, Lenny speaks to the value of having multiple coaches and the diverse perspectives they can bring to one's personal growth journey. Through his efforts, Lenny embodies a multifaceted figure who not only seeks advice but also generously shares his own experiences and insights with others in the professional community.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-f0d1fe8469b0695a86cb6f05b3f0005c&lt;SEP&gt;chunk-fe949e4f02c5782335a1a6ec284c0c9c&lt;SEP&gt;chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-b655492de29f89ef02f114b226b17135&lt;SEP&gt;chunk-b2419a751d344131e30f1c0ef4b2cefb&lt;SEP&gt;chunk-266a1e6627724edba66a7a742a424ca0&lt;SEP&gt;chunk-72a3fa3eec09ff8a100ccb4ab1e0425b&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35&lt;SEP&gt;chunk-83bf94b03a784c5649bdc4fcb44b9e56&lt;SEP&gt;chunk-c13ee6a41148aebc4c36f16e124ba6f4&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487&lt;SEP&gt;chunk-0989656a26d13370c68bd74c1d8b1c06&lt;SEP&gt;chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Act Generously">
+      <data key="d0">Act Generously</data>
+      <data key="d1">concept</data>
+      <data key="d2">Act Generously is a value identified by Lenny, indicating the importance of being giving and supportive to others.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="First Do What You Need to Do, and Then Do What You Want">
+      <data key="d0">First Do What You Need to Do, and Then Do What You Want</data>
+      <data key="d1">concept</data>
+      <data key="d2">First Do What You Need to Do, and Then Do What You Want is a value taught to Lenny by his grandmother, emphasizing priorities in decision-making.</data>
+      <data key="d3">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Mochi Media">
+      <data key="d0">Mochi Media</data>
+      <data key="d1">organization</data>
+      <data key="d2">Mochi Media is a startup where Ada Chen Rekhi worked in marketing, allowing her to gain valuable experience in the industry.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Connected">
+      <data key="d0">Connected</data>
+      <data key="d1">organization</data>
+      <data key="d2">Connected is a personal CRM founded by Ada Chen Rekhi, aimed at improving professional and personal network management.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Growth Marketing">
+      <data key="d0">Growth Marketing</data>
+      <data key="d1">concept</data>
+      <data key="d2">Growth marketing is a strategy Ada Chen Rekhi focused on at LinkedIn, aimed at increasing membership numbers and optimizing marketing approaches.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Explore and Exploit">
+      <data key="d0">Explore and Exploit</data>
+      <data key="d1">concept</data>
+      <data key="d2">Explore and exploit is a career concept mentioned by Ada Chen Rekhi that refers to the dual modes of exploration for new opportunities versus exploiting known successes.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="AdCenter">
+      <data key="d0">AdCenter</data>
+      <data key="d1">organization</data>
+      <data key="d2">AdCenter is a Microsoft advertising platform where Ada Chen Rekhi initially worked, focusing on ad services.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Growth Team">
+      <data key="d0">Growth Team</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Growth Team at LinkedIn is responsible for increasing the membership base and optimizing company growth strategies.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466235</data>
+      <data key="d6" />
+    </node>
+    <node id="Subscription Side">
+      <data key="d0">Subscription Side</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Subscription Side refers to the part of LinkedIn where Ada Chen Rekhi worked on managing and optimizing subscription services.</data>
+      <data key="d3">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Ivy League School">
+      <data key="d0">Ivy League School</data>
+      <data key="d1">institution</data>
+      <data key="d2">Ivy League schools are prestigious universities known for academic excellence and high achievements.</data>
+      <data key="d3">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Career Path">
+      <data key="d0">Career Path</data>
+      <data key="d1">concept</data>
+      <data key="d2">Career Path refers to the professional journey individuals take, including decisions that align with personal values and satisfaction.&lt;SEP&gt;Career Path refers to the trajectory of an individual's professional journey and the values they seek to fulfill along the way.</data>
+      <data key="d3">chunk-266a1e6627724edba66a7a742a424ca0&lt;SEP&gt;chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Resume">
+      <data key="d0">Resume</data>
+      <data key="d1">concept</data>
+      <data key="d2">A Resume is a document that summarizes a person's background, skills, and accomplishments, often used for job applications.</data>
+      <data key="d3">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Sachin">
+      <data key="d0">Sachin</data>
+      <data key="d1">person</data>
+      <data key="d2">Sachin is mentioned as Ada Chen Rekhi's partner and co-founder, working collaboratively in their business efforts.</data>
+      <data key="d3">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Ada Chen Rekhi">
+      <data key="d0">Ada Chen Rekhi</data>
+      <data key="d1">person</data>
+      <data key="d2">Ada Chen Rekhi is a multifaceted professional known for her role as an executive coach, co-founder of Notejoy, and former senior vice president of marketing at SurveyMonkey. Her career spans various positions in prominent companies, including LinkedIn, and she has made significant contributions to discussions around leadership, career decisions, and personal growth. Ada emphasizes the importance of seeking advice and valuing feedback from trusted individuals in her decision-making process, often sharing insights on how to optimize response rates when soliciting help from others.
+
+In her professional practice, Ada Chen Rekhi discusses techniques like curiosity loops and effective question structuring to elicit feedback. She actively engages in conversations about personal values and the ongoing pursuit of knowledge and growth tailored to individual needs. As a speaker, she highlights the significance of coaching, especially during chaotic circumstances often faced by founders, and provides perspectives on the impact of one's appearance on professional perception.
+
+Moreover, Ada explores concepts such as inner and outer scorecards, offering strategies for personal and professional development. She shares insights on building a company in partnership, reflecting on both positive and challenging aspects of this experience. Her talks often encourage constructive feedback and networking as critical components of career advancement, particularly for women in Silicon Valley.
+
+Ada is also active in content creation and networking, sharing her favorite productivity strategies, work-related tools, and recommended readings that relate to marketing and personal development. Her presence extends to digital platforms where she contributes ideas on optimizing productivity and frameworks for success, making her a notable figure in the discourse surrounding professional growth and development in the tech industry.</data>
+      <data key="d3">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-f0d1fe8469b0695a86cb6f05b3f0005c&lt;SEP&gt;chunk-fe949e4f02c5782335a1a6ec284c0c9c&lt;SEP&gt;chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-b655492de29f89ef02f114b226b17135&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-b2419a751d344131e30f1c0ef4b2cefb&lt;SEP&gt;chunk-813fa4d6ddad5e5e9b3c0409a3eb009e&lt;SEP&gt;chunk-266a1e6627724edba66a7a742a424ca0&lt;SEP&gt;chunk-72a3fa3eec09ff8a100ccb4ab1e0425b&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35&lt;SEP&gt;chunk-83bf94b03a784c5649bdc4fcb44b9e56&lt;SEP&gt;chunk-c13ee6a41148aebc4c36f16e124ba6f4&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487&lt;SEP&gt;chunk-0989656a26d13370c68bd74c1d8b1c06&lt;SEP&gt;chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Content Creation">
+      <data key="d0">Content Creation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Content creation involves producing and sharing relevant information or insights, which can be challenging yet impactful.</data>
+      <data key="d3">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Company Founding">
+      <data key="d0">Company Founding</data>
+      <data key="d1">concept</data>
+      <data key="d2">Company founding is described as a challenging and sometimes traumatic experience, especially when co-founders are also romantically involved.</data>
+      <data key="d3">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Company">
+      <data key="d0">Company</data>
+      <data key="d1">organization</data>
+      <data key="d2">The company mentioned in the dialogue is co-founded by Ada Chen Rekhi and her partner, Sachin, highlighting the challenges of running a business together.</data>
+      <data key="d3">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Persuasion">
+      <data key="d0">Persuasion</data>
+      <data key="d1">content</data>
+      <data key="d2">Persuasion is a book by Robert Cialdini that discusses strategies to encourage people to agree and help persuade them towards decisions.</data>
+      <data key="d3">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Designing Your Life">
+      <data key="d0">Designing Your Life</data>
+      <data key="d1">content</data>
+      <data key="d2">Designing Your Life is a book by Bill Burnett and Dave Evans that applies design principles to personal and career development.</data>
+      <data key="d3">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="30, 60 and 90 Day Plan">
+      <data key="d0">30, 60 and 90 Day Plan</data>
+      <data key="d1">concept</data>
+      <data key="d2">The 30, 60 and 90 Day Plan is a structured approach used by Ada Chen Rekhi and Lenny to manage their business relationship and ensure regular check-ins.</data>
+      <data key="d3">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466236</data>
+      <data key="d6" />
+    </node>
+    <node id="Curiosity Loop">
+      <data key="d0">Curiosity Loop</data>
+      <data key="d1">concept</data>
+      <data key="d2">The curiosity loop is a structured approach to asking for advice, enhancing the likelihood of receiving quality input.&lt;SEP&gt;Curiosity Loop is a concept referring to an engagement method that encourages people to participate and share their thoughts.</data>
+      <data key="d3">chunk-83bf94b03a784c5649bdc4fcb44b9e56&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Family">
+      <data key="d0">Family</data>
+      <data key="d1">concept</data>
+      <data key="d2">The family context is described in relation to decision-making, particularly regarding estate planning for children.</data>
+      <data key="d3">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Executive Function">
+      <data key="d0">Executive Function</data>
+      <data key="d1">concept</data>
+      <data key="d2">Executive function refers to the cognitive abilities involved in decision-making and planning, which peak at age 30.</data>
+      <data key="d3">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="The Concept of Asking for Advice">
+      <data key="d0">The Concept of Asking for Advice</data>
+      <data key="d1">concept</data>
+      <data key="d2">The concept of asking for advice is discussed as an important process for decision-making, emphasizing the mutual benefits of providing and receiving input.</data>
+      <data key="d3">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Estate Planning">
+      <data key="d0">Estate Planning</data>
+      <data key="d1">concept</data>
+      <data key="d2">Estate planning refers to the process of arranging for the management and disposal of a person's estate after their death, highlighted in a personal context regarding a child's inheritance.</data>
+      <data key="d3">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Ego Monster">
+      <data key="d0">Ego Monster</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Ego Monster is a metaphor representing internal pressures to pursue impressive roles and titles, often leading to dissatisfaction.</data>
+      <data key="d3">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Inner Scorecard">
+      <data key="d0">Inner Scorecard</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Inner Scorecard refers to personal measures of success that focus on individual values and personal experiences.</data>
+      <data key="d3">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Outer Scorecard">
+      <data key="d0">Outer Scorecard</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Outer Scorecard represents how external factors such as status and recognition define an individual's success.</data>
+      <data key="d3">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Coaching">
+      <data key="d0">Coaching</data>
+      <data key="d1">concept</data>
+      <data key="d2">Coaching is a process that involves guidance and support for individuals seeking to measure their progress against their values.&lt;SEP&gt;Coaching is a process where individuals receive guidance and support, particularly in high-pressure environments, to enhance learning and performance.</data>
+      <data key="d3">chunk-c13ee6a41148aebc4c36f16e124ba6f4&lt;SEP&gt;chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Reforge">
+      <data key="d0">Reforge</data>
+      <data key="d1">organization</data>
+      <data key="d2">Reforge is a program that offers courses and resources aimed at helping individuals learn about growth strategies.</data>
+      <data key="d3">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Personal Board of Directors">
+      <data key="d0">Personal Board of Directors</data>
+      <data key="d1">concept</data>
+      <data key="d2">Personal Board of Directors is an idea for gathering trusted individuals for advice and feedback, applied asynchronously in this context.</data>
+      <data key="d3">chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Customer Advisory Councils">
+      <data key="d0">Customer Advisory Councils</data>
+      <data key="d1">concept</data>
+      <data key="d2">Customer Advisory Councils are groups of top customers that provide feedback and insights to companies regarding products and services, mentioned in the context of Ada Chen Rekhi's past experiences.</data>
+      <data key="d3">chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="Make Time">
+      <data key="d0">Make Time</data>
+      <data key="d1">content</data>
+      <data key="d2">Make Time is a book recommended by Lenny, which includes a framework called The Highlight for prioritizing daily tasks.</data>
+      <data key="d3">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="The Highlight">
+      <data key="d0">The Highlight</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Highlight is a framework within the book Make Time, emphasizing the importance of selecting and completing a key task each day.</data>
+      <data key="d3">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="adachen.com">
+      <data key="d0">adachen.com</data>
+      <data key="d1">content</data>
+      <data key="d2">adachen.com is Ada Chen Rekhi's personal website where she can be reached online.</data>
+      <data key="d3">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466237</data>
+      <data key="d6" />
+    </node>
+    <node id="adachen@gmail.com">
+      <data key="d0">adachen@gmail.com</data>
+      <data key="d1">data</data>
+      <data key="d2">adachen@gmail.com is the email address provided by Ada Chen Rekhi for listeners to contact her.</data>
+      <data key="d3">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466238</data>
+      <data key="d6" />
+    </node>
+    <node id="Founders">
+      <data key="d0">Founders</data>
+      <data key="d1">concept</data>
+      <data key="d2">Founders are individuals who start new businesses and often face unique challenges that make coaching beneficial for their rapid development.</data>
+      <data key="d3">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466238</data>
+      <data key="d6" />
+    </node>
+    <node id="80 People">
+      <data key="d0">80 People</data>
+      <data key="d1">data</data>
+      <data key="d2">80 people were surveyed about their experiences with coaching, revealing insights into the importance of personal connection over credentials in coach selection.</data>
+      <data key="d3">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466238</data>
+      <data key="d6" />
+    </node>
+    <node id="Guide">
+      <data key="d0">Guide</data>
+      <data key="d1">content</data>
+      <data key="d2">A guide authored by Ada Chen Rekhi that provides insights on how to find a suitable coach and the factors to consider during selection.</data>
+      <data key="d3">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466238</data>
+      <data key="d6" />
+    </node>
+    <node id="Coaches">
+      <data key="d0">Coaches</data>
+      <data key="d1">concept</data>
+      <data key="d2">Coaches are individuals who provide support and guidance to help others improve their skills, particularly in high-pressure or competitive environments.</data>
+      <data key="d3">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466238</data>
+      <data key="d6" />
+    </node>
+    <node id="Personal Connection">
+      <data key="d0">Personal Connection</data>
+      <data key="d1">concept</data>
+      <data key="d2">Personal connection refers to the emotional and interpersonal bond that can significantly influence the effectiveness of a coaching relationship.</data>
+      <data key="d3">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466238</data>
+      <data key="d6" />
+    </node>
+    <node id="productivity strategies">
+      <data key="d0">productivity strategies</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d2">Ada Chen Rekhi shares productivity strategies, specifically the importance of focusing on one task at a time to overcome procrastination.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466257</data>
+      <data key="d6" />
+    </node>
+    <node id="productive procrastination">
+      <data key="d0">productive procrastination</data>
+      <data key="d3">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d2">Ada Chen Rekhi discusses her struggle with productive procrastination and how it impacts her task management.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466258</data>
+      <data key="d6" />
+    </node>
+    <node id="Community">
+      <data key="d0">Community</data>
+      <data key="d3">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d2">Ada Chen Rekhi emphasizes the importance of building a community for support rather than solely relying on coaching.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">Ada Chen Rekhi.txt</data>
+      <data key="d5">1768466271</data>
+      <data key="d6" />
+    </node>
+    <edge source="Microsoft" target="Ada Chen Rekhi">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi began her professional career at Microsoft in an entry-level sales role.&lt;SEP&gt;Ada Chen Rekhi began her career at Microsoft, which set the stage for her future advancements in marketing.</data>
+      <data key="d9">career development,career start,early experience,professional background</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="SurveyMonkey" target="Ada Chen Rekhi">
+      <data key="d7">5.0</data>
+      <data key="d8">Ada Chen Rekhi shares her experiences from working at SurveyMonkey, where she learned about effective questioning.&lt;SEP&gt;Ada Chen Rekhi served as the senior vice president of marketing at SurveyMonkey, contributing to her experience in scaling businesses.&lt;SEP&gt;Ada Chen Rekhi was approached by SurveyMonkey for a marketing position based on their diverse experiences and strengths.&lt;SEP&gt;Ada Chen Rekhi progressed to the role of SVP of marketing at SurveyMonkey after her early career at Microsoft.&lt;SEP&gt;Ada Chen Rekhi became the head of marketing at SurveyMonkey after years of experience in other marketing roles.</data>
+      <data key="d9">career advancement,career growth,career opportunity,career progression,employment,experience,hiring process,leadership,marketing leadership,marketing role</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-f0d1fe8469b0695a86cb6f05b3f0005c&lt;SEP&gt;chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c&lt;SEP&gt;chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Career Concept of Explore and Exploit" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny refers to the Career Concept of Explore and Exploit as a strategy for optimizing early career decisions.</data>
+      <data key="d9">career development,strategy</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Values Exercise" target="Ada Chen Rekhi">
+      <data key="d7">3.0</data>
+      <data key="d8">Ada Chen Rekhi describes the Values Exercise as a method she uses for self-reflection and personal development.&lt;SEP&gt;Ada Chen Rekhi describes the Values Exercise as a tool for exploring personal values to facilitate better life decisions.&lt;SEP&gt;Ada Chen Rekhi uses the Values Exercise to reassess her career decisions and align them with her values.</data>
+      <data key="d9">decision-making tool,personal development,self-exploration,self-reflection</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-266a1e6627724edba66a7a742a424ca0&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466246</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Values Exercise" target="Career Path">
+      <data key="d7">1.0</data>
+      <data key="d8">The Values Exercise serves as a tool to evaluate decisions made along one's career path.</data>
+      <data key="d9">decision-making,evaluation tool</data>
+      <data key="d10">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466263</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Values" target="Lenny">
+      <data key="d7">2.0</data>
+      <data key="d8">Lenny reflects on his values as part of the decision-making process regarding opportunities in his life.&lt;SEP&gt;Lenny engages in a discussion about the significance of values in making career decisions.</data>
+      <data key="d9">decision-making,discussion topic,personal reflection</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Values" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi discusses how personal values influence her decision-making and career choices.</data>
+      <data key="d9">decision influence,personal beliefs</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466247</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Sheryl Sandberg" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi discusses Sheryl Sandberg's impactful feedback and the bravery it demonstrated in a professional context.</data>
+      <data key="d9">constructive feedback,mentorship</data>
+      <data key="d10">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Sheryl Sandberg" target="Feedback">
+      <data key="d7">1.0</data>
+      <data key="d8">Sheryl Sandberg's experiences with feedback contribute to the conversation on professional growth and receiving hard feedback.</data>
+      <data key="d9">cultural influence,professional development</data>
+      <data key="d10">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Silicon Valley" target="Networking">
+      <data key="d7">1.0</data>
+      <data key="d8">Networking is identified as vital for career advancement in Silicon Valley, emphasizing the significance of building professional relationships.</data>
+      <data key="d9">career advancement,professional connections</data>
+      <data key="d10">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Silicon Valley" target="Ada Chen Rekhi">
+      <data key="d7">3.0</data>
+      <data key="d8">Ada Chen Rekhi discusses her experiences as a woman in Silicon Valley, highlighting the challenges and insights gained from that experience.&lt;SEP&gt;Ada Chen Rekhi addresses the challenges of being a woman in leadership roles in Silicon Valley.&lt;SEP&gt;Ada Chen Rekhi reflects on her experiences in Silicon Valley and the importance of networking for career development.</data>
+      <data key="d9">discussion,experience sharing,gender challenges,leadership,networking,professional growth</data>
+      <data key="d10">chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-fe949e4f02c5782335a1a6ec284c0c9c&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Silicon Valley" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny refers to the challenging work environment for women in Silicon Valley regarding obtaining executive roles.</data>
+      <data key="d9">gender dynamics,work environment</data>
+      <data key="d10">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Eating Your Vegetables" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi emphasizes the concept of Eating Your Vegetables as a metaphor for developing skills through persistence.</data>
+      <data key="d9">perseverance,skill development</data>
+      <data key="d10">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466249</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Networking" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi emphasizes the importance of networking in establishing connections with interesting individuals online.</data>
+      <data key="d9">connection,professional relationships</data>
+      <data key="d10">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466269</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LinkedIn 30" target="Ada Chen Rekhi">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi recommends the LinkedIn 30 method as a way to enhance content creation skills and overcome barriers in sharing professional insights.&lt;SEP&gt;Ada Chen Rekhi discusses the LinkedIn 30 as a content strategy aimed at overcoming the barrier of sharing valuable insights.</data>
+      <data key="d9">content creation,content strategy,engagement challenge,personal development</data>
+      <data key="d10">chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466249</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Business Cards" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi describes her strategy of using business cards as a way to introduce herself at networking events.</data>
+      <data key="d9">introduction,networking strategy</data>
+      <data key="d10">chunk-da35812fee5d3a2bb7e10cd3329695d9</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466250</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Growth Experience" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi emphasizes the importance of growth experiences for career development and personal fulfillment.</data>
+      <data key="d9">career strategy,professional development</data>
+      <data key="d10">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466251</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Boiling Frog Metaphor" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny references the boiling frog metaphor in the context of understanding career decisions and environments.</data>
+      <data key="d9">career insight,metaphor usage</data>
+      <data key="d10">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466246</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product Marketer" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi identifies as a product marketer, indicating her expertise in marketing strategies and product development.</data>
+      <data key="d9">experience,professional role</data>
+      <data key="d10">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466251</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Startup Founder" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi is described as a startup founder, emphasizing her role in establishing and leading new businesses.</data>
+      <data key="d9">entrepreneurship,professional identity</data>
+      <data key="d10">chunk-f0d1fe8469b0695a86cb6f05b3f0005c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466252</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Executive Coaches" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi discusses the importance of executive coaches in aiding career success and personal growth.</data>
+      <data key="d9">career development,guidance</data>
+      <data key="d10">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466252</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Podcast Coach" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny expresses interest in hiring a podcast coach as part of his personal development strategy.</data>
+      <data key="d9">coaching selection,personal development</data>
+      <data key="d10">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466249</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Seed Stage Founder" target="Coaching Session">
+      <data key="d7">1.0</data>
+      <data key="d8">The seed stage founder participates in a coaching session to enhance her skills and get feedback.</data>
+      <data key="d9">client relationship,personal development</data>
+      <data key="d10">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466250</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Seed Stage Founder" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi shares her experience providing feedback to a seed stage founder in a coaching session.</data>
+      <data key="d9">coaching relationship,feedback</data>
+      <data key="d10">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Coaching Session" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi conducts coaching sessions to provide feedback and guidance to clients.</data>
+      <data key="d9">coaching relationship,feedback mechanism</data>
+      <data key="d10">chunk-fe949e4f02c5782335a1a6ec284c0c9c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ted Lasso" target="Ada Chen Rekhi">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi mentions watching Ted Lasso, reflecting her interest in contemporary television.&lt;SEP&gt;Ada Chen Rekhi is currently watching the show Ted Lasso, expressing enjoyment of its latest season.</data>
+      <data key="d9">TV show,content interest,enjoyment,media engagement</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Star Trek: Strange New Worlds" target="Ada Chen Rekhi">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi expresses interest in Star Trek: Strange New Worlds, indicating her affinity for the Star Trek series.&lt;SEP&gt;Ada Chen Rekhi identifies as a Star Trek nerd and is watching Star Trek: Strange New Worlds, showcasing her enthusiasm for the franchise.</data>
+      <data key="d9">TV show,content interest,fandom,media engagement</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466254</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Notejoy" target="Ada Chen Rekhi">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi co-founded Notejoy, which focuses on helping teams organize their thoughts.&lt;SEP&gt;Ada Chen Rekhi utilizes Notejoy for various tasks including product roadmaps and coaching notes.</data>
+      <data key="d9">entrepreneurship,partnership,personal use,productivity tool</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466255</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Notejoy" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny inquires about Notejoy, referencing it as an online resource.</data>
+      <data key="d9">online resource,organization mention</data>
+      <data key="d10">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466273</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Captio" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi frequently uses Captio for jotting down ideas and reflections efficiently.</data>
+      <data key="d9">app usage,productivity tool</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466255</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Arc" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi is interested in exploring Arc, a new browser she's recently downloaded.</data>
+      <data key="d9">product exploration,technological interest</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Note to Self" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny recommends Note to Self, an app he uses to easily capture thoughts for later.</data>
+      <data key="d9">personal usage,product recommendation</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Curiosity Loops" target="Web Development Bootcamp">
+      <data key="d7">1.0</data>
+      <data key="d8">Web development bootcamps are discussed as a topic for curiosity loops, highlighting the importance of structured questions.</data>
+      <data key="d9">educational tool,inquiry</data>
+      <data key="d10">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466254</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Curiosity Loops" target="Subject Matter Expert">
+      <data key="d7">1.0</data>
+      <data key="d8">The concept of a subject matter expert is emphasized in the context of formulating effective curiosity loops.</data>
+      <data key="d9">context,expertise</data>
+      <data key="d10">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466255</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Curiosity Loops" target="Ada Chen Rekhi">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi describes how curiosity loops serve as a method for enhancing advice and feedback collection.&lt;SEP&gt;Ada Chen Rekhi utilizes Curiosity Loops to gather structured feedback, which aids her decision-making process.</data>
+      <data key="d9">advice gathering,decision-making,feedback method,methodology</data>
+      <data key="d10">chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466259</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Good Question" target="Bad Question">
+      <data key="d7">1.0</data>
+      <data key="d8">The distinction between a good question and a bad question highlights the importance of clarity and specificity in inquiry.</data>
+      <data key="d9">comparison,questioning quality</data>
+      <data key="d10">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466255</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Good Question" target="Cognitive Load">
+      <data key="d7">1.0</data>
+      <data key="d8">A good question reduces cognitive load, facilitating clearer answers and more effective decision-making processes.</data>
+      <data key="d9">decision making,impact</data>
+      <data key="d10">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Bad Question" target="Cognitive Load">
+      <data key="d7">1.0</data>
+      <data key="d8">A bad question increases cognitive load, which can obstruct effective decision-making and lead to poor responses.</data>
+      <data key="d9">decision making,impact</data>
+      <data key="d10">chunk-be830a7a4a458cbfb8936b2300adce51</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Feedback" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi provides feedback to an individual to help them improve their professional image and address biases.</data>
+      <data key="d9">coaching,professional guidance</data>
+      <data key="d10">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466260</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Female Founders" target="Funding">
+      <data key="d7">1.0</data>
+      <data key="d8">The challenges of being a female founder in Silicon Valley are closely linked to their ability to secure funding.</data>
+      <data key="d9">business context,challenges</data>
+      <data key="d10">chunk-b655492de29f89ef02f114b226b17135</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny's Podcast" target="Sprig">
+      <data key="d7">1.0</data>
+      <data key="d8">Sprig sponsors Lenny's Podcast, highlighting its usefulness for product teams seeking user insights.</data>
+      <data key="d9">product insights,sponsorship</data>
+      <data key="d10">chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny's Podcast" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi appears as a guest on Lenny's Podcast to share insights on product development and coaching.</data>
+      <data key="d9">guest appearance,knowledge sharing</data>
+      <data key="d10">chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466261</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny's Podcast" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny encourages listeners to subscribe to Lenny's Podcast for more episodes and content.</data>
+      <data key="d9">podcast promotion,subscription request</data>
+      <data key="d10">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466274</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Sprig" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny collaborates with Sprig to create a playbook for product development based on his experiences.</data>
+      <data key="d9">collaboration,product insights</data>
+      <data key="d10">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466262</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LinkedIn" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi took on a role at LinkedIn to refine her skills and learn more about growth strategies before starting another company.</data>
+      <data key="d9">career development,skill enhancement</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466262</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LinkedIn" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny and Ada Chen Rekhi collaborated on different teams at LinkedIn, enhancing their partnership.</data>
+      <data key="d9">team dynamics,work experience</data>
+      <data key="d10">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466267</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Andrew Chen" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi is the sister of Andrew Chen, who is recognized for his work in venture capital at a16z.</data>
+      <data key="d9">family relationship,professional connection</data>
+      <data key="d10">chunk-1541bd4f2a9abc2f1439bee710c7880c</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466261</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Podcast" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny discusses his experience with creating a Podcast and the decisions surrounding its initiation.</data>
+      <data key="d9">content creation,personal choice</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466258</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Angel Investing" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny is contemplating stopping Angel Investing to prioritize time with his New Child.</data>
+      <data key="d9">financial commitment,time management</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466259</data>
+      <data key="d13" />
+    </edge>
+    <edge source="New Child" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny's upcoming New Child influences his priorities and considerations about his commitments.</data>
+      <data key="d9">family,priorities</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466258</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Choose Adventure" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny identifies Choose Adventure as one of his core values that influences his approach to life.</data>
+      <data key="d9">personal philosophy,value identification</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466259</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stay Optimistic" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny identifies Stay Optimistic as a guiding principle reflecting his approach to challenges.</data>
+      <data key="d9">personal philosophy,value identification</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466260</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Treat Others You Want to Be Treated" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny expresses Treat Others You Want to Be Treated as a moral value influencing his interactions with others.</data>
+      <data key="d9">ethical behavior,value identification</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466260</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Keep Getting Better" target="Lenny">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny identifies Keep Getting Better as a value that drives his pursuit of continual growth and development.</data>
+      <data key="d9">self-improvement,value identification</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466261</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Ada Chen Rekhi">
+      <data key="d7">15.0</data>
+      <data key="d8">The relation between Ada Chen Rekhi and Lenny is characterized by a series of meaningful discussions that revolve around personal and professional development, decision-making, and the processes of seeking and providing advice. Their conversations encompass various themes, including the optimization of advice-seeking, the structure of question-asking, and the significance of curiosity loops.
+
+In their exchanges, Ada Chen Rekhi provides valuable insights to Lenny regarding her decision-making processes, particularly in the context of career advice and navigating job-related challenges. This dynamic is marked by reciprocal engagement, where Lenny seeks guidance from Ada on his values and decision-making while sharing his own perspectives. They delve into concepts such as the importance of distinguishing between inner and outer measures of success, emphasizing personal values in their career choices and the pursuit of personal satisfaction.
+
+The discussions also touch upon the transformative potential of coaching, both as a theoretical framework and a practical application in their professional lives. Lenny values Ada's coaching insights, highlighting the advantages of having multiple coaches and the complexities involved in providing feedback on sensitive subjects. Their conversations reflect a deep engagement with the nuances of personal development, professional networking, and the dynamics of collaboration in business ventures.
+
+Overall, the relationship between Ada Chen Rekhi and Lenny is marked by a shared commitment to exploring the intricacies of decision-making, career development, and the rich interplay of coaching and feedback in personal growth. Their ongoing dialogues contribute to a profound understanding of each other's values, challenges, and aspirations.</data>
+      <data key="d9">advice,advice seeking,advice-seeking,business partnership,career advice,collaboration,concept exchange,conversation,dialogue,discussion,feedback,guidance,knowledge sharing,learning,podcast guest,questioning,value sharing</data>
+      <data key="d10">chunk-3ef01b14864e33f95632c541afb0e371&lt;SEP&gt;chunk-da35812fee5d3a2bb7e10cd3329695d9&lt;SEP&gt;chunk-f0d1fe8469b0695a86cb6f05b3f0005c&lt;SEP&gt;chunk-fe949e4f02c5782335a1a6ec284c0c9c&lt;SEP&gt;chunk-be830a7a4a458cbfb8936b2300adce51&lt;SEP&gt;chunk-b655492de29f89ef02f114b226b17135&lt;SEP&gt;chunk-b2419a751d344131e30f1c0ef4b2cefb&lt;SEP&gt;chunk-266a1e6627724edba66a7a742a424ca0&lt;SEP&gt;chunk-fb1103e8b73ff343465efd5a55080c35&lt;SEP&gt;chunk-83bf94b03a784c5649bdc4fcb44b9e56&lt;SEP&gt;chunk-c13ee6a41148aebc4c36f16e124ba6f4&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487&lt;SEP&gt;chunk-0989656a26d13370c68bd74c1d8b1c06&lt;SEP&gt;chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466244</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Act Generously">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny expresses the value of Act Generously, reflecting his commitment to helping others.</data>
+      <data key="d9">personal philosophy,value identification</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466261</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="First Do What You Need to Do, and Then Do What You Want">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny incorporates the value of First Do What You Need to Do, and Then Do What You Want into his decision-making process.</data>
+      <data key="d9">personal philosophy,value identification</data>
+      <data key="d10">chunk-b2419a751d344131e30f1c0ef4b2cefb</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466261</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Resume">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny discusses the importance of aligning life choices with the meanings behind one's resume.</data>
+      <data key="d9">career reflection,discussion topic</data>
+      <data key="d10">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466263</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Company Founding">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny and Ada Chen Rekhi discuss the personal dynamics and challenges of co-founding a company.</data>
+      <data key="d9">entrepreneurial insight,personal experience</data>
+      <data key="d10">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466264</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Curiosity Loop">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny discusses the importance of a structured approach, such as the curiosity loop, when asking for advice.</data>
+      <data key="d9">advice process,structured inquiry</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466268</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Family">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny relates the concept of seeking advice to personal decisions made within the family context regarding estate planning.</data>
+      <data key="d9">decision-making,personal context</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466269</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="The Concept of Asking for Advice">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny discusses the reciprocal nature of asking for advice, noting the value it brings to both parties involved.</data>
+      <data key="d9">advice seeking,mutual benefit</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466269</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Estate Planning">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny mentions estate planning as a significant personal decision discussed within the family context.</data>
+      <data key="d9">family context,personal decision-making</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466270</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Ego Monster">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny references the Ego Monster as a representation of the internal struggle to pursue external validation.</data>
+      <data key="d9">internal conflict,self-awareness</data>
+      <data key="d10">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466270</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Coaching">
+      <data key="d7">2.0</data>
+      <data key="d8">Lenny talks about coaching as a potential resource for individuals feeling stuck in their career paths.&lt;SEP&gt;Lenny shares his personal experience reflecting on the value of coaching for his own development and the success of professionals.</data>
+      <data key="d9">personal development,personal experience,realization,support</data>
+      <data key="d10">chunk-c13ee6a41148aebc4c36f16e124ba6f4&lt;SEP&gt;chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466271</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Personal Board of Directors">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny and Ada Chen Rekhi discuss the concept of a Personal Board of Directors as an alternative approach to seeking advice.</data>
+      <data key="d9">advice methodology,conceptual discussion</data>
+      <data key="d10">chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466271</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lenny" target="Make Time">
+      <data key="d7">1.0</data>
+      <data key="d8">Lenny discusses the book Make Time and its approach to productivity with Ada.</data>
+      <data key="d9">discussion,productivity concept</data>
+      <data key="d10">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466272</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Mochi Media" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi worked in a marketing role at Mochi Media, which contributed to her skills and experience in a smaller team environment.</data>
+      <data key="d9">marketing role,startup experience</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466262</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Connected" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi founded Connected to enhance networking, utilizing her entrepreneurial skills.</data>
+      <data key="d9">entrepreneurial experience,founder</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466262</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Explore and Exploit" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi's career philosophy of explore and exploit guided her decisions throughout her career.</data>
+      <data key="d9">career philosophy,professional development</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466263</data>
+      <data key="d13" />
+    </edge>
+    <edge source="AdCenter" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi gained early experience in advertising while working at AdCenter under Microsoft.</data>
+      <data key="d9">advertising role,early experience</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466264</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Growth Team" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi collaborated with the Growth Team at LinkedIn to enhance marketing efforts and grow membership numbers.</data>
+      <data key="d9">collaboration,marketing strategy</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466264</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Subscription Side" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi worked on the Subscription Side at LinkedIn to optimize its subscription business model.</data>
+      <data key="d9">marketing focus,service optimization</data>
+      <data key="d10">chunk-813fa4d6ddad5e5e9b3c0409a3eb009e</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466265</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ivy League School" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi's upbringing included expectations related to attending an Ivy League school as part of achievements.</data>
+      <data key="d9">achievement,educational background</data>
+      <data key="d10">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466266</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Career Path" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi reflects on her career path and how it relates to her values and happiness.</data>
+      <data key="d9">personal development,values alignment</data>
+      <data key="d10">chunk-266a1e6627724edba66a7a742a424ca0</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466266</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Sachin" target="Ada Chen Rekhi">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi and Sachin are co-founders of a company, reflecting on their experiences in business together.</data>
+      <data key="d9">co-founders,partnership</data>
+      <data key="d10">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466267</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="productivity strategies">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi shares productivity strategies, specifically the importance of focusing on one task at a time to overcome procrastination.</data>
+      <data key="d9">daily tips,self-improvement</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="productive procrastination">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi discusses her struggle with productive procrastination and how it impacts her task management.</data>
+      <data key="d9">behavioral pattern,self-awareness</data>
+      <data key="d10">chunk-90c28137229e765d930d2bf4320b8fb4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466259</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Content Creation">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi highlights the challenges associated with content creation in professional settings.</data>
+      <data key="d9">difficulty,professional activity</data>
+      <data key="d10">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466268</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Company">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi is a founder of the company, reflecting on the unique challenges of being co-founders with a romantic partner.</data>
+      <data key="d9">entrepreneurial journey,founder relationship</data>
+      <data key="d10">chunk-72a3fa3eec09ff8a100ccb4ab1e0425b</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466269</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Persuasion">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi recommends the book Persuasion for its insights into marketing and persuasive strategies.</data>
+      <data key="d9">book recommendation,marketing strategies</data>
+      <data key="d10">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466270</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Designing Your Life">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi suggests Designing Your Life for its application of design principles to personal and career development.</data>
+      <data key="d9">book recommendation,career development</data>
+      <data key="d10">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466270</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="30, 60 and 90 Day Plan">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi implemented a 30, 60 and 90 Day Plan to prioritize her relationship with Lenny while working together.</data>
+      <data key="d9">project management,relationship focus</data>
+      <data key="d10">chunk-fb1103e8b73ff343465efd5a55080c35</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466270</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Curiosity Loop">
+      <data key="d7">2.0</data>
+      <data key="d8">Ada Chen Rekhi explains how using a curiosity loop can make asking for advice more effective and engaging.&lt;SEP&gt;Ada Chen Rekhi discusses the Curiosity Loop as a method to encourage participation and input from others.</data>
+      <data key="d9">advice optimization,engagement,participation,structuring requests</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56&lt;SEP&gt;chunk-daf4efdc6d7ef21e837dfeccb1035487</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466271</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Executive Function">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi discusses how executive function peaks in early adulthood and its implications for decision-making in the context of seeking advice.</data>
+      <data key="d9">age impact,cognitive ability</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466271</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Estate Planning">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi relates the concept of seeking advice to the personal matter of estate planning for her daughter.</data>
+      <data key="d9">family advice,personal decision-making</data>
+      <data key="d10">chunk-83bf94b03a784c5649bdc4fcb44b9e56</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466272</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Inner Scorecard">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada discusses the Inner Scorecard as a means to evaluate personal happiness and success.</data>
+      <data key="d9">personal values,self-evaluation</data>
+      <data key="d10">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466272</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Outer Scorecard">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada describes the Outer Scorecard as metrics that society uses to judge individual success.</data>
+      <data key="d9">external validation,societal expectations</data>
+      <data key="d10">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466273</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Reforge">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada suggests Reforge as a valuable platform for learning about growth from various experts.</data>
+      <data key="d9">growth education,learning resource</data>
+      <data key="d10">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466273</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Make Time">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada references the framework from the book Make Time during her discussion with Lenny.</data>
+      <data key="d9">productivity,recommendation</data>
+      <data key="d10">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466274</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="adachen.com">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada provides her website, adachen.com, for listeners to find her online.</data>
+      <data key="d9">contact information,online presence</data>
+      <data key="d10">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466275</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="adachen@gmail.com">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada offers her email address for listeners to provide feedback and connect with her.</data>
+      <data key="d9">contact information,listener engagement</data>
+      <data key="d10">chunk-0989656a26d13370c68bd74c1d8b1c06</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466276</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Founders">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi discusses the unique challenges founders face that can make coaching particularly valuable for their growth.</data>
+      <data key="d9">coaching relevance,guidance</data>
+      <data key="d10">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466277</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ada Chen Rekhi" target="Coaching">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi advocates for the importance of coaching in helping individuals navigate their challenges, especially in states of hyper growth.</data>
+      <data key="d9">advocacy,coaching importance</data>
+      <data key="d10">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466277</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Coaching" target="Community">
+      <data key="d7">1.0</data>
+      <data key="d8">Ada Chen Rekhi emphasizes the importance of building a community for support rather than solely relying on coaching.</data>
+      <data key="d9">long-term assistance,support network</data>
+      <data key="d10">chunk-c13ee6a41148aebc4c36f16e124ba6f4</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466272</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Coaching" target="Coaches">
+      <data key="d7">1.0</data>
+      <data key="d8">Coaching involves coaches providing support and guidance to individuals to enhance their skills and overcome challenges.</data>
+      <data key="d9">guidance,support</data>
+      <data key="d10">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466274</data>
+      <data key="d13" />
+    </edge>
+    <edge source="80 People" target="Guide">
+      <data key="d7">1.0</data>
+      <data key="d8">The experiences of 80 people serve as research that informs the content of Ada Chen Rekhi's guide on finding a coach.</data>
+      <data key="d9">insights,research</data>
+      <data key="d10">chunk-393b95debdafdce0c156cac4611ebeee</data>
+      <data key="d11">Ada Chen Rekhi.txt</data>
+      <data key="d12">1768466273</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

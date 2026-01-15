@@ -1,0 +1,6 @@
+ERROR: OPENAI_API_KEY environment variable not set!
+
+Please set your OpenAI API key:
+  export OPENAI_API_KEY='your-api-key-here'
+
+Or modify this script to use a different LLM provider.
