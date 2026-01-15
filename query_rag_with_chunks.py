@@ -22,6 +22,7 @@ from raganything import RAGAnything, RAGAnythingConfig
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 from lightrag.utils import EmbeddingFunc
 from lightrag import QueryParam
+from qdrant_config import get_lightrag_kwargs
 
 
 async def query_with_chunks(question: str, mode: str = "hybrid", show_chunks: bool = True):
@@ -50,6 +51,9 @@ async def query_with_chunks(question: str, mode: str = "hybrid", show_chunks: bo
     async def embedding_func(texts: list[str]) -> np.ndarray:
         return await openai_embed(texts, model="text-embedding-3-small")
 
+    # Get Qdrant configuration
+    lightrag_kwargs = get_lightrag_kwargs()
+
     # Initialize RAG
     print("Initializing RAG system...")
     rag = RAGAnything(
@@ -58,6 +62,7 @@ async def query_with_chunks(question: str, mode: str = "hybrid", show_chunks: bo
         embedding_func=EmbeddingFunc(
             embedding_dim=1536, max_token_size=8192, func=embedding_func
         ),
+        lightrag_kwargs=lightrag_kwargs
     )
 
     # Ensure LightRAG is initialized
@@ -148,6 +153,9 @@ async def interactive_mode():
     async def embedding_func(texts: list[str]) -> np.ndarray:
         return await openai_embed(texts, model="text-embedding-3-small")
 
+    # Get Qdrant configuration
+    lightrag_kwargs = get_lightrag_kwargs()
+
     # Initialize RAG
     print("Initializing RAG system...")
     rag = RAGAnything(
@@ -156,6 +164,7 @@ async def interactive_mode():
         embedding_func=EmbeddingFunc(
             embedding_dim=1536, max_token_size=8192, func=embedding_func
         ),
+        lightrag_kwargs=lightrag_kwargs
     )
 
     # Ensure LightRAG is initialized

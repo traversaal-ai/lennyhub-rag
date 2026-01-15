@@ -13,6 +13,7 @@ from pathlib import Path
 from raganything import RAGAnything, RAGAnythingConfig
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 from lightrag.utils import EmbeddingFunc
+from qdrant_config import get_lightrag_kwargs
 
 
 async def query_rag(question: str, mode: str = "hybrid"):
@@ -41,6 +42,9 @@ async def query_rag(question: str, mode: str = "hybrid"):
     async def embedding_func(texts: list[str]) -> np.ndarray:
         return await openai_embed(texts, model="text-embedding-3-small")
 
+    # Get Qdrant configuration
+    lightrag_kwargs = get_lightrag_kwargs()
+
     # Initialize RAG
     print("Initializing RAG system...")
     rag = RAGAnything(
@@ -49,6 +53,7 @@ async def query_rag(question: str, mode: str = "hybrid"):
         embedding_func=EmbeddingFunc(
             embedding_dim=1536, max_token_size=8192, func=embedding_func
         ),
+        lightrag_kwargs=lightrag_kwargs
     )
 
     # Ensure LightRAG is initialized
@@ -92,6 +97,9 @@ async def interactive_mode():
     async def embedding_func(texts: list[str]) -> np.ndarray:
         return await openai_embed(texts, model="text-embedding-3-small")
 
+    # Get Qdrant configuration
+    lightrag_kwargs = get_lightrag_kwargs()
+
     # Initialize RAG
     print("Initializing RAG system...")
     rag = RAGAnything(
@@ -100,6 +108,7 @@ async def interactive_mode():
         embedding_func=EmbeddingFunc(
             embedding_dim=1536, max_token_size=8192, func=embedding_func
         ),
+        lightrag_kwargs=lightrag_kwargs
     )
 
     # Ensure LightRAG is initialized

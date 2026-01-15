@@ -20,6 +20,7 @@ from raganything import RAGAnything, RAGAnythingConfig
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 from lightrag.utils import EmbeddingFunc
 from lightrag import QueryParam
+from qdrant_config import get_lightrag_kwargs
 
 
 def load_chunk_metadata(working_dir="./rag_storage"):
@@ -126,6 +127,9 @@ async def query_with_detailed_sources(question: str, mode: str = "hybrid"):
     async def embedding_func(texts: list[str]) -> np.ndarray:
         return await openai_embed(texts, model="text-embedding-3-small")
 
+    # Get Qdrant configuration
+    lightrag_kwargs = get_lightrag_kwargs()
+
     # Initialize RAG
     print("Initializing RAG system...")
     rag = RAGAnything(
@@ -134,6 +138,7 @@ async def query_with_detailed_sources(question: str, mode: str = "hybrid"):
         embedding_func=EmbeddingFunc(
             embedding_dim=1536, max_token_size=8192, func=embedding_func
         ),
+        lightrag_kwargs=lightrag_kwargs
     )
 
     # Ensure LightRAG is initialized

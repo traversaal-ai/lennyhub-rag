@@ -28,3 +28,12 @@ tqdm>=4.65.0
 
 # Optional: For better performance
 # tiktoken>=0.5.0  # OpenAI tokenizer (usually auto-installed)
+
+# Qdrant vector database (for production-grade vector storage)
+qdrant-client>=1.7.0
+
+# Streamlit for web UI
+streamlit>=1.28.0
+
+# HTTP requests for health checks
+requests>=2.31.0

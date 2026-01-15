@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from raganything import RAGAnything, RAGAnythingConfig
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 from lightrag.utils import EmbeddingFunc
+from qdrant_config import get_lightrag_kwargs
 import numpy as np
 from datetime import datetime
 
@@ -138,6 +139,9 @@ async def main():
             model="text-embedding-3-small"
         )
 
+    # Get Qdrant configuration
+    lightrag_kwargs = get_lightrag_kwargs()
+
     # Initialize RAG system with LLM functions
     print("Initializing RAG system...")
     rag = RAGAnything(
@@ -147,7 +151,8 @@ async def main():
             embedding_dim=1536,
             max_token_size=8192,
             func=embedding_func
-        )
+        ),
+        lightrag_kwargs=lightrag_kwargs
     )
 
     # Ensure LightRAG is initialized
