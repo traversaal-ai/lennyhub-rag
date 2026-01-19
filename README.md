@@ -124,7 +124,8 @@ streamlit run streamlit_app.py
 
 Explore the network of people and their connections from Lenny's podcasts with an interactive graph visualization.
 
-![Knowledge Graph](assets/graph_screenshot.png)
+Knowledge Graph
+<img width="1502" height="842" alt="Screenshot 2026-01-19 at 21 17 49" src="https://github.com/user-attachments/assets/c9c16e6f-5871-45cb-88ba-c53d6501dfe4" />
 
 **Launch the Graph Viewer:**
 ```bash
