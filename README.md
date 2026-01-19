@@ -88,6 +88,17 @@ python setup_rag.py --parallel --workers 8
 
 Launch the beautiful web UI:
 
+**Windows:**
+```powershell
+# First time: Install Qdrant
+.\install_qdrant_windows.ps1
+
+# Run the app (Qdrant starts automatically!)
+.venv\Scripts\Activate.ps1
+streamlit run streamlit_app.py
+```
+
+**macOS/Linux:**
 ```bash
 ./run_streamlit.sh
 ```
@@ -98,6 +109,8 @@ Launch the beautiful web UI:
 - 📖 **Transcripts Tab**: Browse and preview all transcripts
 - ⚙️ **Sidebar**: Real-time status, settings, and quick links
 - 💡 **Sample Questions**: Pre-built queries to get started
+- 🔄 **Auto-Start Qdrant**: No manual startup needed
+- 🛡️ **Stable Queries**: Run unlimited queries without errors
 
 **Screenshot Features:**
 - Clean, modern interface
@@ -189,7 +202,8 @@ lennyhub-rag/
 │
 ├── 🚀 Setup & Configuration
 │   ├── setup_rag.py                  # One-command automated setup
-│   ├── install_qdrant_local.sh       # Install Qdrant binary
+│   ├── install_qdrant_local.sh       # Install Qdrant (macOS/Linux)
+│   ├── install_qdrant_windows.ps1    # Install Qdrant (Windows)
 │   ├── start_qdrant.sh               # Start Qdrant server
 │   ├── stop_qdrant.sh                # Stop Qdrant server
 │   ├── status_qdrant.sh              # Check Qdrant status
@@ -200,6 +214,7 @@ lennyhub-rag/
 │
 ├── 🎨 User Interfaces
 │   ├── streamlit_app.py              # Visual web interface
+│   ├── query_worker.py               # Subprocess query handler
 │   ├── run_streamlit.sh              # Launch Streamlit app
 │   ├── query_rag.py                  # CLI query interface
 │   ├── query_with_sources.py         # Query with source attribution
@@ -369,8 +384,8 @@ This RAG system demonstrates advanced agent engineering with knowledge graphs, v
 
 ## ⚙️ System Requirements
 
-- **OS**: macOS or Linux
-- **Python**: 3.8 or higher
+- **OS**: Windows, macOS, or Linux
+- **Python**: 3.8 or higher (3.11 recommended)
 - **RAM**: 2GB+ recommended (4GB+ for all transcripts)
 - **Disk Space**:
   - Base: ~500MB
@@ -497,6 +512,22 @@ streamlit run streamlit_app.py --server.port 8502
 streamlit run streamlit_app.py --logger.level debug
 ```
 
+### Windows-Specific Issues
+
+```powershell
+# Install Qdrant if not found
+.\install_qdrant_windows.ps1
+
+# Check if Qdrant is running
+Invoke-RestMethod -Uri "http://localhost:6333/"
+
+# Activate virtual environment
+.venv\Scripts\Activate.ps1
+
+# Install missing packages
+uv pip install nest-asyncio
+```
+
 ## 📈 Performance Tips
 
 ### Indexing Performance
@@ -550,6 +581,9 @@ Ada Chen Rekhi, Adam Fishman, Adam Grenier, Andrew Wilkinson, Annie Duke, Brian 
 
 ### Latest Updates
 
+🪟 **Windows Support**: Full Windows compatibility with PowerShell scripts
+🔄 **Auto-Start Qdrant**: Streamlit app automatically starts Qdrant
+🛡️ **Stable Multi-Query**: Subprocess isolation prevents event loop conflicts
 ⚡ **Parallel Processing**: 5-10x faster indexing with `--parallel` flag 
 ✨ **One-Command Setup**: Automated `setup_rag.py` script 
 🎨 **Streamlit Web UI**: Beautiful visual interface 

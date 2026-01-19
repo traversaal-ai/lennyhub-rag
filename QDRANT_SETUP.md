@@ -12,13 +12,28 @@ Qdrant is a production-grade vector database that replaces the default NanoVecto
 
 ## Prerequisites
 
-- macOS or Linux operating system
-- `curl` command (pre-installed on most systems)
+- **Windows**, macOS, or Linux operating system
 - Python 3.8+ with pip
+- `curl` command (macOS/Linux) or PowerShell (Windows)
 
 ## Installation
 
-### 1. Install Qdrant Binary
+### Windows Installation
+
+```powershell
+# Run the Windows installation script
+.\install_qdrant_windows.ps1
+```
+
+This script will:
+- Download the latest Qdrant binary for Windows (x86_64)
+- Install it to `~/.qdrant/qdrant.exe`
+- Create the storage directory
+- Verify the installation
+
+**Note:** The Streamlit app will **automatically start Qdrant** when you launch it, so manual startup is optional.
+
+### macOS/Linux Installation
 
 ```bash
 cd lennyhub-rag

@@ -1,1 +1,0 @@
-{"indexed_fields":{"workspace_id":{"type":"keyword","is_tenant":true}},"indexed_types":{"workspace_id":[{"index_type":"keyword_index","mutability":"mutable","storage_type":"gridstore"},{"index_type":"null_index","mutability":"mutable","storage_type":{"mmap":{"is_on_disk":false}}}]}}

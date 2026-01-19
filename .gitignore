@@ -14,6 +14,9 @@ build/
 # RAG Storage
 rag_storage/
 
+# Qdrant Storage
+qdrant_storage/
+
 # Logs
 *.log
 build_log.txt

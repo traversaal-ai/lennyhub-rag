@@ -10,6 +10,11 @@ Usage:
 import streamlit as st
 import asyncio
 import os
+import sys
+import platform
+import subprocess
+import shutil
+import time
 from pathlib import Path
 from dotenv import load_dotenv
 import requests
@@ -18,6 +23,12 @@ import json
 
 # Load environment variables
 load_dotenv()
+
+# Ensure Qdrant environment variables are set (required by LightRAG)
+if not os.getenv("QDRANT_URL"):
+    os.environ["QDRANT_URL"] = "http://localhost:6333"
+if not os.getenv("QDRANT_COLLECTION_NAME"):
+    os.environ["QDRANT_COLLECTION_NAME"] = "lennyhub"
 
 # Page config
 st.set_page_config(
@@ -56,7 +67,7 @@ st.markdown("""
         color: #721c24;
     }
     .query-result {
-        background-color: #f8f9fa;
+        # background-color: #f8f9fa;
         padding: 1.5rem;
         border-radius: 0.5rem;
         margin-top: 1rem;
@@ -70,6 +81,130 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
+
+def find_qdrant_binary():
+    """Find Qdrant binary path"""
+    system = platform.system()
+    
+    if system == "Windows":
+        # Windows paths
+        possible_paths = [
+            os.path.expanduser("~/.qdrant/qdrant.exe"),
+            os.path.expanduser("~/.qdrant/qdrant"),
+            os.path.join(os.getenv("LOCALAPPDATA", ""), "qdrant", "qdrant.exe"),
+        ]
+        
+        # Check direct paths first
+        for path in possible_paths:
+            if os.path.isfile(path):
+                return path
+        
+        # Check PATH using shutil.which (more reliable)
+        for cmd in ["qdrant.exe", "qdrant"]:
+            found = shutil.which(cmd)
+            if found and os.path.isfile(found):
+                return found
+    else:
+        # Unix-like paths
+        possible_paths = [
+            os.path.expanduser("~/.qdrant/qdrant"),
+            "/usr/local/bin/qdrant",
+            "/usr/bin/qdrant",
+        ]
+        
+        # Check direct paths first
+        for path in possible_paths:
+            if os.path.isfile(path) and os.access(path, os.X_OK):
+                return path
+        
+        # Check PATH using shutil.which
+        found = shutil.which("qdrant")
+        if found and os.path.isfile(found):
+            return found
+    
+    return None
+
+
+def start_qdrant():
+    """Start Qdrant server if not already running"""
+    # First check if already running
+    try:
+        response = requests.get("http://localhost:6333/health", timeout=2)
+        if response.status_code == 200:
+            return True, "Already running"
+    except:
+        pass
+    
+    # Find Qdrant binary
+    qdrant_bin = find_qdrant_binary()
+    if not qdrant_bin:
+        return False, "Qdrant binary not found. Please install Qdrant first."
+    
+    # Check if config file exists
+    config_path = Path("./qdrant_config.yaml")
+    if not config_path.exists():
+        return False, "qdrant_config.yaml not found"
+    
+    # Start Qdrant
+    try:
+        system = platform.system()
+        storage_dir = Path("./qdrant_storage")
+        storage_dir.mkdir(exist_ok=True)
+        
+        if system == "Windows":
+            # Windows: start in background
+            # Use CREATE_NO_WINDOW to hide console window
+            try:
+                process = subprocess.Popen(
+                    [qdrant_bin, "--config-path", str(config_path.absolute())],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    creationflags=subprocess.CREATE_NO_WINDOW | subprocess.DETACHED_PROCESS,
+                    cwd=os.getcwd()
+                )
+            except AttributeError:
+                # CREATE_NO_WINDOW not available (Python < 3.7)
+                process = subprocess.Popen(
+                    [qdrant_bin, "--config-path", str(config_path.absolute())],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    creationflags=subprocess.DETACHED_PROCESS,
+                    cwd=os.getcwd()
+                )
+        else:
+            # Unix-like: use nohup equivalent
+            process = subprocess.Popen(
+                [qdrant_bin, "--config-path", str(config_path.absolute())],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                start_new_session=True,
+                cwd=os.getcwd()
+            )
+        
+        # Wait a bit for startup
+        time.sleep(3)
+        
+        # Check if process is still running
+        if process.poll() is not None:
+            # Process exited
+            stderr = process.stderr.read().decode() if process.stderr else "Unknown error"
+            return False, f"Qdrant process exited: {stderr}"
+        
+        # Check if Qdrant is responding
+        max_retries = 10
+        for i in range(max_retries):
+            try:
+                response = requests.get("http://localhost:6333/health", timeout=2)
+                if response.status_code == 200:
+                    return True, "Started successfully"
+            except:
+                time.sleep(1)
+        
+        return False, "Qdrant started but not responding"
+        
+    except Exception as e:
+        return False, f"Failed to start Qdrant: {str(e)}"
 
 
 @st.cache_resource
@@ -99,49 +234,54 @@ def check_qdrant_status():
     }
 
 
-@st.cache_resource
+def create_rag_instance():
+    """Create a fresh RAG instance (not cached to avoid event loop issues)"""
+    from raganything import RAGAnything, RAGAnythingConfig
+    from lightrag.llm.openai import openai_complete_if_cache, openai_embed
+    from lightrag.utils import EmbeddingFunc
+    from qdrant_config import get_lightrag_kwargs
+    import numpy as np
+
+    config = RAGAnythingConfig(
+        working_dir="./rag_storage",
+        parser="mineru",
+        enable_image_processing=False,
+        enable_table_processing=False,
+        enable_equation_processing=False,
+    )
+
+    async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwargs):
+        return await openai_complete_if_cache(
+            "gpt-4o-mini",
+            prompt,
+            system_prompt=system_prompt,
+            history_messages=history_messages,
+            **kwargs
+        )
+
+    async def embedding_func(texts: list[str]) -> np.ndarray:
+        return await openai_embed(texts, model="text-embedding-3-small")
+
+    lightrag_kwargs = get_lightrag_kwargs(verbose=False)
+
+    rag = RAGAnything(
+        config=config,
+        llm_model_func=llm_model_func,
+        embedding_func=EmbeddingFunc(
+            embedding_dim=1536,
+            max_token_size=8192,
+            func=embedding_func
+        ),
+        lightrag_kwargs=lightrag_kwargs
+    )
+
+    return rag
+
+
 def initialize_rag():
-    """Initialize RAG system"""
+    """Initialize RAG system with fresh instance to avoid event loop conflicts"""
     try:
-        from raganything import RAGAnything, RAGAnythingConfig
-        from lightrag.llm.openai import openai_complete_if_cache, openai_embed
-        from lightrag.utils import EmbeddingFunc
-        from qdrant_config import get_lightrag_kwargs
-        import numpy as np
-
-        config = RAGAnythingConfig(
-            working_dir="./rag_storage",
-            parser="mineru",
-            enable_image_processing=False,
-            enable_table_processing=False,
-            enable_equation_processing=False,
-        )
-
-        async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwargs):
-            return await openai_complete_if_cache(
-                "gpt-4o-mini",
-                prompt,
-                system_prompt=system_prompt,
-                history_messages=history_messages,
-                **kwargs
-            )
-
-        async def embedding_func(texts: list[str]) -> np.ndarray:
-            return await openai_embed(texts, model="text-embedding-3-small")
-
-        lightrag_kwargs = get_lightrag_kwargs(verbose=False)
-
-        rag = RAGAnything(
-            config=config,
-            llm_model_func=llm_model_func,
-            embedding_func=EmbeddingFunc(
-                embedding_dim=1536,
-                max_token_size=8192,
-                func=embedding_func
-            ),
-            lightrag_kwargs=lightrag_kwargs
-        )
-
+        rag = create_rag_instance()
         return rag, None
     except Exception as e:
         return None, str(e)
@@ -161,23 +301,81 @@ def get_transcript_stats():
     return stats
 
 
-async def query_rag(rag, question, mode="hybrid"):
-    """Query the RAG system"""
+def query_rag_sync(question, mode="hybrid"):
+    """Query the RAG system via subprocess for complete isolation"""
+    import subprocess
+    import json
+    
     try:
-        # Ensure RAG is initialized
-        await rag._ensure_lightrag_initialized()
-
-        # Query
-        response = await rag.aquery(question, mode=mode)
-        return response, None
+        # Get the Python executable from the virtual environment
+        python_exe = sys.executable
+        
+        # Run query_worker.py in a separate process
+        result = subprocess.run(
+            [python_exe, "query_worker.py", question, mode],
+            capture_output=True,
+            text=True,
+            timeout=300,  # 5 minute timeout
+            cwd=os.getcwd()
+        )
+        
+        if result.returncode != 0:
+            # Check stderr for errors
+            error_msg = result.stderr.strip() if result.stderr else "Unknown error"
+            return None, f"Worker process failed: {error_msg}"
+        
+        # Parse JSON output
+        output = result.stdout.strip()
+        if not output:
+            return None, "No output from worker process"
+        
+        # Find the JSON in the output (skip any log lines)
+        json_line = None
+        for line in output.split('\n'):
+            line = line.strip()
+            if line.startswith('{') and line.endswith('}'):
+                json_line = line
+        
+        if not json_line:
+            # Try parsing the whole output
+            json_line = output.split('\n')[-1]
+        
+        data = json.loads(json_line)
+        
+        if data.get("success"):
+            return data.get("response"), None
+        else:
+            return None, data.get("error", "Unknown error")
+            
+    except subprocess.TimeoutExpired:
+        return None, "Query timed out after 5 minutes"
+    except json.JSONDecodeError as e:
+        return None, f"Failed to parse worker response: {e}"
     except Exception as e:
-        return None, str(e)
+        return None, f"Query failed: {str(e)}"
 
 
 def main():
     # Header
     st.markdown('<div class="main-header">🎙️ LennyHub RAG Explorer</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Query and explore podcast transcripts with AI-powered search</div>', unsafe_allow_html=True)
+
+    # Check and start Qdrant if needed (only once per session)
+    if "qdrant_started" not in st.session_state:
+        qdrant_status = check_qdrant_status()
+        if qdrant_status["status"] != "running":
+            with st.spinner("Starting Qdrant..."):
+                success, message = start_qdrant()
+                if success:
+                    st.session_state.qdrant_started = True
+                    # Clear cache to refresh status
+                    check_qdrant_status.clear()
+                    st.rerun()
+                else:
+                    st.session_state.qdrant_started = False
+                    st.session_state.qdrant_error = message
+        else:
+            st.session_state.qdrant_started = True
 
     # Sidebar
     with st.sidebar:
@@ -201,13 +399,23 @@ def main():
                 for col in qdrant_status["collections"]:
                     st.text(f"• {col['name']}")
         else:
-            st.markdown("""
-            <div class="status-box status-error">
-                ✗ Qdrant: Not Running<br>
-                Please start Qdrant first:<br>
-                <code>./start_qdrant.sh</code>
-            </div>
-            """, unsafe_allow_html=True)
+            # Show error if startup failed
+            error_msg = ""
+            if hasattr(st.session_state, 'qdrant_error'):
+                error_msg = f"<br>Error: {st.session_state.qdrant_error}"
+                st.markdown(f"""
+                <div class="status-box status-error">
+                    ✗ Qdrant: Not Running{error_msg}<br>
+                    Please ensure Qdrant is installed and qdrant_config.yaml exists.
+                </div>
+                """, unsafe_allow_html=True)
+            else:
+                st.markdown(f"""
+                <div class="status-box status-error">
+                    ✗ Qdrant: Not Running{error_msg}<br>
+                    Starting automatically...
+                </div>
+                """, unsafe_allow_html=True)
 
         # API Key status
         st.markdown("---")
@@ -290,33 +498,27 @@ def main():
                 st.error("⚠️ OpenAI API key is not configured. Please set it in the .env file.")
             else:
                 with st.spinner("🤔 Thinking..."):
-                    # Initialize RAG
-                    rag, error = initialize_rag()
+                    # Query with fresh RAG instance
+                    start_time = datetime.now()
+                    response, error = query_rag_sync(question, mode=query_mode)
+                    end_time = datetime.now()
+                    duration = (end_time - start_time).total_seconds()
 
                     if error:
-                        st.error(f"Failed to initialize RAG: {error}")
+                        st.error(f"Query failed: {error}")
                     else:
-                        # Query
-                        start_time = datetime.now()
-                        response, error = asyncio.run(query_rag(rag, question, mode=query_mode))
-                        end_time = datetime.now()
-                        duration = (end_time - start_time).total_seconds()
+                        # Display result
+                        st.success(f"✓ Query completed in {duration:.2f} seconds")
 
-                        if error:
-                            st.error(f"Query failed: {error}")
-                        else:
-                            # Display result
-                            st.success(f"✓ Query completed in {duration:.2f} seconds")
+                        st.markdown("### 📝 Answer")
+                        st.markdown(f'<div class="query-result">{response}</div>', unsafe_allow_html=True)
 
-                            st.markdown("### 📝 Answer")
-                            st.markdown(f'<div class="query-result">{response}</div>', unsafe_allow_html=True)
-
-                            # Metadata
-                            with st.expander("ℹ️ Query Metadata"):
-                                st.json({
-                                    "question": question,
-                                    "mode": query_mode,
-                                    "duration_seconds": round(duration, 2),
+                        # Metadata
+                        with st.expander("ℹ️ Query Metadata"):
+                            st.json({
+                                "question": question,
+                                "mode": query_mode,
+                                "duration_seconds": round(duration, 2),
                                     "timestamp": datetime.now().isoformat()
                                 })
 
