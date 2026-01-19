@@ -581,17 +581,17 @@ Ada Chen Rekhi, Adam Fishman, Adam Grenier, Andrew Wilkinson, Annie Duke, Brian 
 
 ### Latest Updates
 
-🪟 **Windows Support**: Full Windows compatibility with PowerShell scripts
-🔄 **Auto-Start Qdrant**: Streamlit app automatically starts Qdrant
-🛡️ **Stable Multi-Query**: Subprocess isolation prevents event loop conflicts
-⚡ **Parallel Processing**: 5-10x faster indexing with `--parallel` flag 
-✨ **One-Command Setup**: Automated `setup_rag.py` script 
-🎨 **Streamlit Web UI**: Beautiful visual interface 
-🗄️ **Local Qdrant**: Production vector DB (no Docker) 
-📚 **297 Transcripts**: Complete podcast library 
-🚀 **Smart Resume**: Automatically skips processed transcripts 
-📊 **Statistics Dashboard**: Real-time system monitoring 
-💡 **Sample Questions**: Built-in query examples 
+- 🪟 **Windows Support**: Full Windows compatibility with PowerShell scripts
+- 🔄 **Auto-Start Qdrant**: Streamlit app automatically starts Qdrant
+- 🛡️ **Stable Multi-Query**: Subprocess isolation prevents event loop conflicts
+- ⚡ **Parallel Processing**: 5-10x faster indexing with `--parallel` flag 
+- ✨ **One-Command Setup**: Automated `setup_rag.py` script 
+- 🎨 **Streamlit Web UI**: Beautiful visual interface 
+- 🗄️ **Local Qdrant**: Production vector DB (no Docker) 
+- 📚 **297 Transcripts**: Complete podcast library 
+- 🚀 **Smart Resume**: Automatically skips processed transcripts 
+- 📊 **Statistics Dashboard**: Real-time system monitoring 
+- 💡 **Sample Questions**: Built-in query examples 
 
 ---
 
